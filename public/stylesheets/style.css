@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7ca4d5;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #b6adad;
+  color: rgb(46, 86, 174);
+  padding: 10px 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.autos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.auto-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  width: 220px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  background-color: white;
+}

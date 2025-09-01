@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <%- include('partials/header') %> <!-- Header separado -->
+    <main>
+        <%- body %> <!-- Aquí se inyecta el contenido de la vista -->
+    </main>
+    <%- include('partials/footer') %> <!-- Footer separado -->
+</body>
+</html>
+

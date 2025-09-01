@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+
+<h2>VISTA DE AUTOS</h2>
+<div class="autos-list">
+    <% listadoAutos.forEach(auto => { %>
+        <div class="auto-card">
+            <p><strong>Marca:</strong> <%= auto.marca %></p>
+            <p><strong>Modelo:</strong> <%= auto.modelo %></p>
+            <p><strong>Año:</strong> <%= auto.anio %></p>
+            <p><strong>Color:</strong> <%= auto.color %></p>
+        </div>
+    <% }) %>
+</div>
+<%- include('partials/footer') %>
+
+
